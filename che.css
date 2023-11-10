@@ -1,0 +1,152 @@
+.wed-top-section{
+    text-align: center;
+    
+    font-family: "Bree-Serif";
+}
+.wed-mid-page{
+    text-align: center;
+    font-family:"Bree-Serif";
+
+}
+nav a {
+    float:left;
+    list-style-type:none;
+
+}
+
+nav  a {
+    padding:14px 16px ; 
+    font-family:"Verdana "; 
+    display:block;
+    color:white;
+    font-weight:bold;
+    font-size: 20px;
+    text-align:center;
+    }
+nav a:hover{
+    background-color:#ADD8E6;
+}
+.button:hover{
+    background-color: #ADD8E6;
+}
+.wed-real-section{
+    background-image: url("https://t3.ftcdn.net/jpg/02/85/95/46/360_F_285954627_rjiQEJalQTvAXL9aKrN3pHrbXHYEjSCR.jpg");
+    height:100vh;
+    background-size:cover;
+}
+nav button{
+    color: black;
+    background-color: whitesmoke;
+    border-radius:5px;
+    padding:14px 16px;
+    text-align: end;
+}
+.start-head{
+    font-family:"Roboto" ;
+    color: whitesmoke;
+    
+    padding: 160px;
+    font-size: 50px;
+    
+}
+.start-para{
+    font-family:"Roboto";
+    color:whitesmoke;
+    font-size:20px;
+}
+.service-para{
+    color: black;
+    font-style: "Roboto";
+    padding: 10px;
+    margin: 10px;
+    font-size:30px;
+    text-align: center;
+    
+}
+.service-head{
+    font-family:"Roboto";
+    color:#ADD8E6 ;
+    padding: 20px;
+    margin: 10px;
+}
+.home-style{
+    padding:14px 16px ; 
+    font-family:"Roboto"; 
+    display:block;
+    color:whitesmoke;
+    font-weight:bold;
+    font-size: 20px;
+    text-align:center;
+}
+.decoration-img{
+    width:300px;
+    height:200px;
+    background-size:cover;   
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius:20px;
+}
+.decoration-card{
+    background-color: #ADD8E6;
+    border-radius:10px;
+    text-align: center;
+    padding:20px;
+    margin: 10px;
+}
+.decoration-para{
+    font-family:"Roboto";
+    color:whitesmoke;
+    font-weight:bold;
+    font-size:40px;
+}
+.button{
+    border-radius:10px;
+    font-family:"Roboto";
+    font-weight:bold;
+}
+.courosel-card{
+    margin:40px;
+    padding:40px;
+}
+.gap{
+    padding:10px;
+}
+.navbar-link {
+    color: var(--white-1);
+    font-size: var(--fs-5);
+    font-weight: var(--fw-500);
+    padding-block: 10px 0;
+    border-bottom: 2px solid transparent;
+    width: max-content;
+  }
+  body 
+  {
+  height: 125vh;
+  margin-top: 80px;
+  padding: 30px;
+  background-size: cover;
+  font-family: sans-serif;
+  }
+  header {
+  background-color: orange;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 5px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 25px 0 black;
+  }
+  header * {
+  display: inline;
+  }
+  header li {
+  margin: 20px;
+  }
+  header li a {
+  color: blue;
+  text-decoration: none;
+  }
+  
